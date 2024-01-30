@@ -1,0 +1,20 @@
+USA = {
+	color = { 66  94  193 }
+	
+	country_type = colonial
+	
+	tier = empire
+	
+	cultures = { yankee dixie }
+	capital = STATE_MARYLAND
+}
+NEN = {
+	color = { 166  224  85 }
+	
+	country_type = colonial
+	
+	tier = grand_principality
+	
+	cultures = { yankee }
+	capital = STATE_L_NEW_ENGLAND
+}

@@ -1,0 +1,21 @@
+game_object_locator={
+	name="city"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="locators"
+	instances={
+		{
+			id = 800
+			position={ 2479.150635 0.000000 2533.393311 }
+			rotation={ -0.000000 0.312648 -0.000000 0.949869 }
+			scale={ 1.000000 1.000000 1.000000 }
+		}
+		{
+			id=801
+			position={ 2468.108887 0.000000 2559.288574 }
+			rotation={ -0.000000 -0.996352 -0.000000 0.085341 }
+			scale={ 1.000000 1.000000 1.000000 }
+		}
+	}
+}

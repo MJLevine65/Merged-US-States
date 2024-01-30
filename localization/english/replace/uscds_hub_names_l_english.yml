@@ -1,0 +1,18 @@
+﻿l_english:
+ HUB_NAME_STATE_MARYLAND_city: "Washington D.C."
+ HUB_NAME_STATE_MARYLAND_port: "Baltimore"
+ HUB_NAME_STATE_MARYLAND_farm: "Wilimington"
+ HUB_NAME_STATE_MARYLAND_mine: "Fredrick"
+ HUB_NAME_STATE_MARYLAND_wood: "Easton"
+ HUB_NAME_STATE_L_NEW_ENGLAND_city: "Boston"
+ HUB_NAME_STATE_L_NEW_ENGLAND_port: "New Haven"
+ HUB_NAME_STATE_L_NEW_ENGLAND_mine: "Springfield"
+ HUB_NAME_STATE_L_NEW_ENGLAND_farm: "Worcester"
+ HUB_NAME_STATE_L_NEW_ENGLAND_wood: "Providence"
+ HUB_NAME_STATE_U_NEW_ENGLAND_city: "Concord"
+ HUB_NAME_STATE_U_NEW_ENGLAND_port: "Portland"
+ HUB_NAME_STATE_U_NEW_ENGLAND_mine: "Montpelier"
+ HUB_NAME_STATE_U_NEW_ENGLAND_farm: "Manchester"
+ HUB_NAME_STATE_U_NEW_ENGLAND_wood: "Augusta"
+
+ 
