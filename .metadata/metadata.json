@@ -1,8 +1,8 @@
 {
     "name" : "Condensed US States",
     "id" : "",
-    "version" : "",
-    "supported_game_version" : "",
+    "version" : "1.0",
+    "supported_game_version" : "Merges smaller US states",
     "short_description" : "",
     "tags" : ["Gameplay","Balance","Map"],
     "thumbnail" : "thumbnail.png",
