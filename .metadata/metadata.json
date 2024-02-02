@@ -1,9 +1,9 @@
 {
     "name" : "Merged US States",
     "id" : "",
-    "version" : "1.0",
-    "supported_game_version" : "Merges smaller US states",
-    "short_description" : "",
+    "version" : "",
+    "supported_game_version" : "1.5.13",
+    "short_description" : "Merges smaller US states",
     "tags" : ["Gameplay","Balance","Map"],
     "thumbnail" : "thumbnail.png",
     "relationships" : [],
