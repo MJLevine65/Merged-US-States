@@ -1,7 +1,7 @@
 NEN = {
 	states = { 
-		STATE_L_NEW_ENGLAND
-		STATE_U_NEW_ENGLAND
+		STATE_MASSACHUSETTS
+		STATE_MAINE
 	}
 
 	ai_will_do = { always = no }

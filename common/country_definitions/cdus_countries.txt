@@ -16,5 +16,5 @@ NEN = {
 	tier = grand_principality
 	
 	cultures = { yankee }
-	capital = STATE_L_NEW_ENGLAND
+	capital = STATE_MASSACHUSETTS
 }
