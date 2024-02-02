@@ -1,13 +1,17 @@
 GLOBAL = {
+	#Creating the new states in global allows the al the pops and buildings to be transferred with the provinces
 	s:STATE_L_NEW_ENGLAND = {
-		set_owner_of_provinces = {
+		create_state = {
+			country = c:USA
+		}
+		 set_owner_of_provinces = {
 			country = c:USA 
-			provinces =  { "x13444D" "x211ECF" "x382709" "x8D8744" "xA58ED2" "xB040C0" "x3040C0" "x7DE678" "x9D3A73" "x1A77EA" "x939ACE" "xC5CE93"}
+		 	provinces =  { "x13444D" "x211ECF" "x382709" "x8D8744" "xA58ED2" "xB040C0" "x3040C0" "x7DE678" "x9D3A73" "x1A77EA" "x939ACE" "xC5CE93"}
 		}
 		region_state:USA = {
 			set_state_type = incorporated
 		}
-		
+		add_homeland = cu:yankee
 	}
 
 	s:STATE_MARYLAND = {
@@ -27,6 +31,7 @@ GLOBAL = {
 		region_state:USA = {
 			set_state_type = incorporated
 		}
+		add_homeland = cu:yankee
 	}
 
 
