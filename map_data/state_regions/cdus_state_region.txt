@@ -1,4 +1,6 @@
-﻿STATE_MARYLAND = {
+﻿#The removed states need to be defined with no provinces to overwrite the definitions from the vanilla files
+# This ensures all the provinces are removed from those states
+STATE_MARYLAND = {
     id = 296
     subsistence_building = "building_subsistence_farms"
     provinces = { "x0E3435" "x16482D" "x3CC08F" "x576240" "x5E6C0F" "x708080" "x888194" "xAEB9F5" "xF08000" "x44578C" "x700080" "x708000" "xEBA646" }
@@ -7,7 +9,7 @@
     farm = "xEBA646"
     mine = "x5E6C0F"
     wood = "x708080"
-    arable_land = 35
+    arable_land = 36
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_logging = 10

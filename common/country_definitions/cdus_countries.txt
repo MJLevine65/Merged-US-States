@@ -9,6 +9,7 @@ USA = {
 	capital = STATE_MARYLAND
 }
 NEN = {
+	#New England releasable
 	color = { 166  224  85 }
 	
 	country_type = colonial
