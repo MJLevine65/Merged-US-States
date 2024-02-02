@@ -1,127 +1,126 @@
-POPS = {
-	s:STATE_MARYLAND = {
-		region_state:USA = {
-			kill_population_percent_in_state = {
-				percent = 1.0
-			}
-			create_pop = { #86263 - DC, 251997 - MD, 77000 - DE
-				culture = dixie
-				size = 415260
-			}
-			create_pop = { #27544 - DC
-				culture = yankee
-				size = 27544
-			}	
-			create_pop = { #48541 - MD, 16919 - DE
-				culture = afro_american
-				size = 65460
-			}
-			create_pop = {#7818 - DC, 58467 - MD, 2605 - DE
-				pop_type = slaves
-				culture = afro_american
-				size = 68890
-			}
-		}
-	}
-	s:STATE_DELAWARE = {
-		region_state:USA = {
-			kill_population_percent_in_state = {
-				percent = 1.0
-			}
-		}
-	}
-	s:STATE_DISTRICT_OF_COLUMBIA = {
-		region_state:USA = {
-			kill_population_percent_in_state = {
-				percent = 1.0
-			}
-		}
-	}
-	s:STATE_MASSACHUSETTS = {
-		region_state:USA = {
-			kill_population_percent_in_state = {
-				percent = 1.0
-			}
-		}
-	}
-	s:STATE_RHODE_ISLAND = {
-		region_state:USA = {
-			kill_population_percent_in_state = {
-				percent = 1.0
-			}
-		}
-	}
-	s:STATE_CONNECTICUT = {
-		region_state:USA = {
-			kill_population_percent_in_state = {
-				percent = 1.0
-			}
-		}
-	}
+# POPS = {
+# 	s:STATE_MARYLAND = {
+# 		region_state:USA = {
+# 			kill_population_percent_in_state = {
+# 				percent = 1.0
+# 			}
+# 			create_pop = { #86263 - DC, 251997 - MD, 77000 - DE
+# 				culture = dixie
+# 				size = 415260
+# 			}
+# 			create_pop = { #27544 - DC
+# 				culture = yankee
+# 				size = 27544
+# 			}	
+# 			create_pop = { #48541 - MD, 16919 - DE
+# 				culture = afro_american
+# 				size = 65460
+# 			}
+# 			create_pop = {#7818 - DC, 58467 - MD, 2605 - DE
+# 				pop_type = slaves
+# 				culture = afro_american
+# 				size = 68890
+# 			}
+# 		}
+# 	}
+# 	s:STATE_DELAWARE = {
+# 		every_scope_pop = {
+# 			move_pop = s:STATE_L_NEW_ENGLAND.region_state:USA
+# 		}
+# 	}
+# 	s:STATE_DISTRICT_OF_COLUMBIA = {
+# 		region_state:USA = {
+# 			kill_population_percent_in_state = {
+# 				percent = 1.0
+# 			}
+# 		}
+# 	}
+	
+# 	# s:STATE_MASSACHUSETTS = {
+# 	# 	region_state:USA = {
+# 	# 		kill_population_percent_in_state = {
+# 	# 			percent = 1.0
+# 	# 		}
+# 	# 	}
+# 	# }
+# 	# s:STATE_RHODE_ISLAND = {
+# 	# 	region_state:USA = {
+# 	# 		kill_population_percent_in_state = {
+# 	# 			percent = 1.0
+# 	# 		}
+# 	# 	}
+# 	# }
+# 	# s:STATE_CONNECTICUT = {
+# 	# 	region_state:USA = {
+# 	# 		kill_population_percent_in_state = {
+# 	# 			percent = 1.0
+# 	# 		}
+# 	# 	}
+# 	# }
 
-	s:STATE_L_NEW_ENGLAND = {
-		region_state:USA = {
-			create_pop = { #754484 - MA, 104820 - RI, 199228 - CT 
-				culture = yankee
-				size = 1058932
-			}
-			create_pop = { #11996 - MA
-				culture = afro_american
-				size = 11996
-			}
-			create_pop = { #52400 - MA
-				culture = irish
-				size = 52400
-			}
-			create_pop = { #28400 - MA
-				culture = yankee
-				religion = catholic
-				size = 28400
-			}
-		}
-	}
-	s:STATE_NEW_HAMPSHIRE = {
-		region_state:USA = {
-			kill_population_percent_in_state = {
-				percent = 1.0
-			}
-		}
-	}
-	s:STATE_VERMONT = {
-		region_state:USA = {
-			kill_population_percent_in_state = {
-				percent = 1.0
-			}
-		}
-	}
-	s:STATE_MAINE = {
-		region_state:USA = {
-			kill_population_percent_in_state = {
-				percent = 1.0
-			}
-		}
-	}
-	s:STATE_U_NEW_ENGLAND = {
-		region_state:USA = {
-			create_pop = { #16000 - ME
-				culture = anglo_canadian
-				size = 16000
-			}
-			create_pop = { #381228 - ME, 282848 - VT, 223300 - NH
-				culture = yankee
-				size = 887376
-			}
-			create_pop = { #24000 - NH
-				culture = franco_canadian
-				size = 24000
-			}
-			reate_pop = { #32000 - NH
-				culture = yankee
-				religion = catholic
-				size = 32000
-			}
+# 	# s:STATE_L_NEW_ENGLAND = {
+# 	# 	region_state:USA = {
+# 	# 		create_pop = { #754484 - MA, 104820 - RI, 199228 - CT 
+# 	# 			culture = yankee
+# 	# 			size = 1058932
+# 	# 		}
+# 	# 		create_pop = { #11996 - MA
+# 	# 			culture = afro_american
+# 	# 			size = 11996
+# 	# 		}
+# 	# 		create_pop = { #52400 - MA
+# 	# 			culture = irish
+# 	# 			size = 52400
+# 	# 		}
+# 	# 		create_pop = { #28400 - MA
+# 	# 			culture = yankee
+# 	# 			religion = catholic
+# 	# 			size = 28400
+# 	# 		}
+# 	# 	}
+# 	# }
+# 	s:STATE_NEW_HAMPSHIRE = {
+# 		region_state:USA = {
+# 			kill_population_percent_in_state = {
+# 				percent = 1.0
+# 			}
+# 		}
+# 	}
+# 	s:STATE_VERMONT = {
+# 		region_state:USA = {
+# 			kill_population_percent_in_state = {
+# 				percent = 1.0
+# 			}
+# 		}
+# 	}
+# 	s:STATE_MAINE = {
+# 		region_state:USA = {
+# 			kill_population_percent_in_state = {
+# 				percent = 1.0
+# 			}
+# 		}
+# 	}
+# 	s:STATE_U_NEW_ENGLAND = {
+# 		region_state:USA = {
+# 			create_pop = { #16000 - ME
+# 				culture = anglo_canadian
+# 				size = 16000
+# 			}
+# 			create_pop = { #381228 - ME, 282848 - VT, 223300 - NH
+# 				culture = yankee
+# 				size = 887376
+# 			}
+# 			create_pop = { #24000 - NH
+# 				culture = franco_canadian
+# 				size = 24000
+# 			}
+# 			reate_pop = { #32000 - NH
+# 				culture = yankee
+# 				religion = catholic
+# 				size = 32000
+# 			}
 
-		}
-	}
+# 		}
+# 	}
 
-}
+# }
