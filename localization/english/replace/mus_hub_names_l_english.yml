@@ -1,4 +1,6 @@
-﻿l_english:
+﻿# Renaming the merged states
+
+l_english:
  HUB_NAME_STATE_MARYLAND_city: "Washington D.C."
  HUB_NAME_STATE_MARYLAND_port: "Baltimore"
  HUB_NAME_STATE_MARYLAND_farm: "Wilimington"

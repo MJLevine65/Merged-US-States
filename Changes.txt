@@ -1,0 +1,3 @@
+If you want to chage this mod to merge more or less states I added notes in each file that detail what needs to be done for each file
+After doing each of those you need to update the spline network theres a guide for doing that here: https://steamcommunity.com/sharedfiles/filedetails/?id=2892376601
+Furthermore if you are merging stats other than those merged in this mod there may be other files in common that mention that state and would also have to be chenged

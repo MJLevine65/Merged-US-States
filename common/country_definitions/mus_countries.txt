@@ -1,3 +1,5 @@
+#If the capital of a country gets merged then redefine the country with the new capital here
+
 USA = {
 	color = { 66  94  193 }
 	
@@ -7,15 +9,4 @@ USA = {
 	
 	cultures = { yankee dixie }
 	capital = STATE_MARYLAND
-}
-NEN = {
-	#New England releasable
-	color = { 166  224  85 }
-	
-	country_type = colonial
-	
-	tier = grand_principality
-	
-	cultures = { yankee }
-	capital = STATE_MASSACHUSETTS
 }

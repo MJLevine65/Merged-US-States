@@ -1,3 +1,6 @@
+#If the states being merged are part of any releasables then redefine the releasables here
+
+# New England
 NEN = {
 	states = { 
 		STATE_MASSACHUSETTS

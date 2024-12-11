@@ -1,5 +1,11 @@
-﻿#The removed states need to be defined with no provinces to overwrite the definitions from the vanilla files
+﻿# The removed states need to be defined with no provinces to overwrite the definitions from the vanilla files
 # This ensures all the provinces are removed from those states
+
+# To custom merge states take the largest of those you want to merge and and all the provinces from the smaller states to the provinces definition, 
+# then define the smaller ones with no provinces
+
+#Set the city locations that you want from each of the merged states with the city, farm, port etc. id's
+#Set the arable land arable resources and capped resources to match the merged states
 STATE_MARYLAND = {
     id = 296
     subsistence_building = "building_subsistence_farms"
@@ -51,8 +57,6 @@ STATE_DELAWARE = {
     }
     naval_exit_id = 3067
 }
-
-
 STATE_RHODE_ISLAND = {
     id = 300
     subsistence_building = "building_subsistence_fishing_villages"
@@ -70,11 +74,10 @@ STATE_RHODE_ISLAND = {
     }
     naval_exit_id = 3067
 }
-
 STATE_CONNECTICUT = {
     id = 301
     subsistence_building = "building_subsistence_fishing_villages"
-    provinces = {}
+    provinces = { "x9D3A73" }
     traits = { "state_trait_new_england_whaling" "state_trait_american_chestnuts" }
     city = "x7DE678"
     port = "x7DE678"
@@ -90,6 +93,7 @@ STATE_CONNECTICUT = {
     }
     naval_exit_id = 3067
 }
+
 
 STATE_MASSACHUSETTS = {
     id = 302
@@ -170,3 +174,5 @@ STATE_MAINE = {
     }
     naval_exit_id = 3017
 }
+
+
